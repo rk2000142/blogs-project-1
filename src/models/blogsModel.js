@@ -14,7 +14,7 @@ const blogsSchema = new mongoose.Schema( {
         required: true
     },
     tags: {
-        type: [String]
+        type: ["String"]
     },
     category:{
         type: String,
@@ -22,7 +22,7 @@ const blogsSchema = new mongoose.Schema( {
     },
     subcategory:{
 
-        type: [String]
+        type: ["String"]
 
     },
     deletedAt: {
